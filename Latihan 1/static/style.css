@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: -webkit-linear-gradient(bottom, blue, #3566b1);
+  }
+  nav h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  h2 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 380;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(75, 78, 74);
+  }
+  h2 span {
+    font-style: italic;
+    color: rgb(231, 236, 231);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: blue;
+  }
+  .content{
+    margin: 50px auto;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+  }
+  
+  
+  
+  /* style list data mahasiswa */
+  .styled-table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  .styled-table thead tr {
+    background-color: blue;
+    color: #ffffff;
+    text-align: left;
+  }
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid blue;
+  }
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #2d6bbd;
+  }
+  .styled-table thead tr {
+    height: 45px;
+    text-align: center;
+  }
+  .styled-table tbody tr {
+    line-height: 50px;
+    text-align: center;
+  }
